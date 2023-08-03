@@ -3,7 +3,7 @@ package com.epam.OOP;
 public class Animal {
     private String color;
     private int numberOfPaws;
-    private Boolean hasFur;
+    private boolean hasFur;
 
     public Animal(String color, int numberOfPaws, Boolean hasFur){
         this.color=color;
@@ -25,6 +25,6 @@ public class Animal {
             furCondition="no";
         }
 
-        return "This animal is mostly " + color + ". It has " + numberOfPaws + " " + pawCondition + " has " + furCondition + " fur.";
+        return "This animal is mostly " + color + ". It has " + numberOfPaws + " " + pawCondition + " and " + furCondition + " fur.";
     }
 }
